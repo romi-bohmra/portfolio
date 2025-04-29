@@ -1,0 +1,226 @@
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.menu .navbar{
+  background-color: #e6e6fa !important;
+  box-shadow: 0 0 4px #000;
+}
+.menu nav .nav-item .nav-link{
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: #734f96;
+}
+.section-one{
+    padding: 3rem 1rem;
+}
+.section-one .col-md-7, .section-one .col-md-5{
+    padding: 0 2rem;
+}
+.section-one .typewriter{
+    font-size: 80px;
+    color: #000000;
+    padding-top: 6rem;
+}
+.section-one .typewriter-text{
+    padding-right: 10px;
+    color: #734f96;
+    border-right: solid #000000 3px;
+    text-transform: capitalize;
+    animation: cursor 1s ease-in-out infinite;
+    font-family: "Playfair Display", serif;
+}
+.section-two{
+    padding: 4rem 0 1.5rem;
+    text-align: justify;
+    background-color: #e6e6fa;
+}
+.section-heading{
+    font-size: 32px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.section-two h3{
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.section-two h3 span{
+    color: #734f96;
+    font-weight: 600;
+}
+.section-two p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-two .tech-stack img.width-1{
+    width: 45px;
+}
+.section-two .tech-stack img.width-2{
+    width: 65px;
+}
+.section-two .about-column-2{
+  padding: 0 3rem;
+}
+@keyframes cursor{
+    from {border-color:#000000;}
+    to {border-color: transparent;}
+}
+.section-scrolling{
+    overflow-x:hidden;
+    padding-bottom: 3rem;
+}
+.scroll-section {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .scroll-section h3{
+    font-size: 24px;
+  }
+  .bar_content span{
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    color: #734f96;
+    font-weight: 600;
+  }
+  .bar_content {
+    display: block;
+    width: 100%;
+    transform: translateX(100%); /* Animation start out of the screen */
+    /* Add the animation */
+    animation: move 12s linear infinite /* infinite make reapeat the animation indefinitely */;
+  }
+  /* Create the animation */
+  @keyframes move {
+    to { transform: translateX(-100%); }
+  }
+  .section-three .row{
+    justify-content: center;
+    align-items: center;
+  }
+  .section-three .row .col-md-3{
+    text-align: center;
+  }
+  .section-three{
+    padding: 4rem 0 5.5rem;
+    background-color: #e6e6fa;
+  }
+  .section-three .number-item .value{
+    font-size: 42px;
+    color: #734f96;
+    font-weight: 600;
+  }
+  .section-three .number-item h6{
+    color: #734f96;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .pages {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section-four .page-2, .section-four .page-4{
+  background-color: #e6e6fa;
+}
+.section-four{
+  padding: 3rem 0 5rem;
+}
+.section-four .section-heading{
+  text-align: center;
+  color: #734f96;
+}
+.section-four .four-descp{
+  padding: 0 6rem 3rem;
+  text-align: center;
+  font-size: 24px;
+}
+.section-four .pages h4{
+  font-size: 22px;
+  padding: 3rem 6rem;
+  line-height: 1.5;
+}
+.section-four .pages .project-1, .section-four .pages .project-2, .section-four .pages .project-3, .section-four .pages .project-4{
+  text-align: center;
+}
+.section-four .pages .project-1 img, .section-four .pages .project-2 img, .section-four .pages .project-3 img, .section-four .pages .project-4 img{
+  width: 72%;
+  margin: auto;
+}
+.section-four .container-fluid{
+  padding: 0;
+}
+.section-four .page-2, .section-four .page-3, .section-four .page-4{
+  padding-top: 3rem;
+}
+.section-five{
+  padding: 3rem 0 5rem;
+  text-align: center;
+}
+.section-five a{
+  color: #734f96;
+}
+@media only screen and (max-width: 768px) {
+  .section-one .typewriter {
+    font-size: 40px;
+    padding-top: 15px;
+    min-height: 240px;
+  }
+  .section-one .typewriter-text {
+    padding: 0;
+  }
+  .section-one {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .section-two {
+    padding: 3rem 0 1.5rem;
+  }
+  .section-heading{
+    text-align: center;
+  }
+  .section-two .about-column-2 {
+    padding: 3rem 2rem 0;
+  }
+  .section-three {
+    padding: 0 0 3.8rem;
+  }
+  .section-three .number-item{
+    padding-bottom: 1rem;
+  }
+  .section-four .four-descp {
+    padding: 0 1rem 2rem;
+  }
+  .section-four .pages h4 {
+    font-size: 18px;
+    padding: 2rem 2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .section-four .pages .project-1 img, .section-four .pages .project-2 img, .section-four .pages .project-3 img, .section-four .pages .project-4 img {
+    width: 90%;
+    margin: auto;
+  }
+  .pages{
+    height: auto;
+  }
+  .section-four {
+    padding: 3rem 0 2rem;
+  }
+  .scroll-section h3 {
+    font-size: 20px;
+    padding: 0 1rem;
+  }
+  .bar_content span {
+    font-size: 47px;
+  }
+  .section-five {
+    padding: 1rem 0 3rem;
+  }
+}
